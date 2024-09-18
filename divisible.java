@@ -4,7 +4,6 @@
 
 import java.util.ArrayList;
 import java.util.Collections;
-
 class divisible {
     public static void main(String[] args) {
         int n = 12;
@@ -15,10 +14,8 @@ class divisible {
             int r = q % n;
             q = q / n;
             if (r < 10) {
-
                 rem.add((char) (r + '0'));
             } else {
-
                 rem.add((char) (r - 10 + 'A'));
             }
         }
